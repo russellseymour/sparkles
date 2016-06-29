@@ -1,0 +1,16 @@
+# This is an auto-generated configuration file for
+# the sfn CLI. To view all available configuration
+# options, please see:
+# http://www.sparkleformation.io/docs/sfn/configuration.html
+Configuration.new do
+  #   Set style of stack nesting
+  apply_nesting 'deep'
+  #   Enable processing of SparkleFormation templates
+  processing true
+
+  sparkle_pack [
+    'chef-pack'
+  ]
+
+  base_directory './'
+end

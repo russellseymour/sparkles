@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+
+gem 'sfn'
+
+group :sfn do
+  gem 'chef-pack', :path => '../packs/chef-pack'
+end
